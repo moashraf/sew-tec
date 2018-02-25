@@ -1,0 +1,1 @@
+[15-Mar-2017 12:22:08 UTC] PHP Fatal error:  Class 'Illuminate\Database\Seeder' not found in /home/appsbe4em/public_html/sew-tec/database/seeds/DatabaseSeeder.php on line 6

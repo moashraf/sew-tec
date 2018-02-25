@@ -1,0 +1,94 @@
+.header-title{
+    color: red;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd), .table-hover > tbody > tr:hover, .table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th {
+    background-color: #f4f8fb !important;
+}
+
+.table-bordered {
+    border: 1px solid #ebeff2;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ebeff2;
+}
+body{
+    background-color: #fff;
+}
+
+
+   thead {display: table-row-group;}
+
+.panel {
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.panel {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-inverse > .panel-heading {
+    background-color: #4c5667;
+}
+.panel-heading {
+    border: none !important;
+    padding: 10px 20px;
+}
+.panel-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel .panel-body {
+    padding: 20px;
+}
+.panel-color .panel-title {
+    color: #ffffff;
+    text-align: center;
+}
+.table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ebeff2;
+}
+table.dataTable thead th.sorting:after {
+    display: none;
+}
+table.dataTable thead th.sorting_asc:after {
+   display: none;
+}
+.label-danger {
+    background-color: #fff;
+    color: black;
+}
+.label-inverse {
+    background-color: #fff;
+    color: black;
+}
+.label-info {
+    background-color: #fff;
+    color: black;
+}
+.label-success {
+    background-color: #fff;
+    color: black;
+}
+.label-purple {
+    background-color: #fff;
+    color: black;
+}
+.label-warning {
+    background-color: #fff;
+    color: black;
+}
